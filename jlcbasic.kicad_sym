@@ -101,7 +101,7 @@
 					(type background)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
 				(name "1"
@@ -119,7 +119,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 5.08 0 180)
 				(length 2.54)
 				(name "2"
@@ -451,7 +451,7 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
 				(name "1"
@@ -469,7 +469,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 5.08 0 180)
 				(length 2.54)
 				(name "2"
@@ -2991,97 +2991,439 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "JLC_PNP"
-		(pin_numbers (hide yes))
-		(pin_names (hide yes))
+	(symbol "JLC_PMOS"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "Q"
+			(at -4.064 4.572 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMOS"
+			(at -5.588 -4.318 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "jlcbasic:SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
+			(at 0 -7.366 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "PMOS FET"
+			(at -0.254 7.366 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "JLC_PMOS_0_1"
+			(polyline
+				(pts
+					(xy -1.78 2.29) (xy -1.78 -2.29)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy -1.27 2.29)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0) (xy 1.27 0) (xy 1.27 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -0.51) (xy -1.27 0.51)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -2.29) (xy -1.27 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.78) (xy -1.27 1.78)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.78) (xy 1.27 2.54) (xy 3.81 2.54) (xy 3.81 0.76)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy -0.25 0.51) (xy -0.25 -0.51) (xy 1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.78) (xy -1.27 -1.78)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -2.54) (xy 3.81 -2.54) (xy 3.81 -0.51)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -0.51) (xy 4.57 0.76) (xy 3.05 0.76) (xy 3.81 -0.51)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.57 -0.51) (xy 4.32 -0.51) (xy 3.3 -0.51) (xy 3.05 -0.51)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -3.81 0 0)
+				(length 2.032)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 1.27 -5.08 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 1.27 5.08 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "JLC_PNP"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "Q"
 			(at -2.286 4.572 0)
-			(effects (font (size 1.27 1.27)))
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Value" "PNP"
 			(at -3.048 -4.064 0)
-			(effects (font (size 1.27 1.27)))
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint" "jlcbasic:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
 			(at -0.254 -6.604 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
-				(font (size 1.27 1.27))
-				(hide yes)
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Description" "PNP"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
-				(font (size 1.27 1.27))
-				(hide yes)
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(symbol "JLC_PNP_0_1"
 			(polyline
 				(pts
-					(xy 0 2.29)
-					(xy 0 -2.29)
+					(xy 0 2.29) (xy 0 -2.29)
 				)
-				(stroke (width 0) (type default))
-				(fill (type none))
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
 			)
 			(polyline
 				(pts
-					(xy 0 -0.76)
-					(xy 2.54 -2.54)
+					(xy 0 -0.76) (xy 2.54 -2.54)
 				)
-				(stroke (width 0) (type default))
-				(fill (type none))
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
 			)
 			(polyline
 				(pts
-					(xy 0 -0.76)
-					(xy 1.52 -1.02)
-					(xy 0.76 -2.03)
-					(xy 0 -0.76)
+					(xy 0 -0.76) (xy 1.52 -1.02) (xy 0.76 -2.03) (xy 0 -0.76)
 				)
-				(stroke (width 0) (type default))
-				(fill (type background))
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
 			)
 			(polyline
 				(pts
-					(xy 2.54 2.54)
-					(xy 0 0.76)
+					(xy 2.54 2.54) (xy 0 0.76)
 				)
-				(stroke (width 0) (type default))
-				(fill (type none))
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
 			)
 			(pin unspecified line
 				(at -2.54 0 0)
 				(length 2.54)
 				(name "B"
-					(effects (font (size 1.27 1.27)))
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 				(number "1"
-					(effects (font (size 1.27 1.27)))
-				)
-			)
-			(pin unspecified line
-				(at 2.54 5.08 270)
-				(length 2.54)
-				(name "C"
-					(effects (font (size 1.27 1.27)))
-				)
-				(number "3"
-					(effects (font (size 1.27 1.27)))
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 			(pin unspecified line
 				(at 2.54 -5.08 90)
 				(length 2.54)
 				(name "E"
-					(effects (font (size 1.27 1.27)))
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 				(number "2"
-					(effects (font (size 1.27 1.27)))
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)
@@ -26652,174 +26994,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "JLC_PMOS"
-		(pin_numbers (hide yes))
-		(pin_names (hide yes))
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "Q"
-			(at -4.064 4.572 0)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Value" "PMOS"
-			(at -5.588 -4.318 0)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Footprint" "jlcbasic:SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
-			(at 0 -7.366 0)
-			(effects
-				(font (size 1.27 1.27))
-				(hide yes)
-			)
-		)
-		(property "Description" "PMOS FET"
-			(at -0.254 7.366 0)
-			(effects
-				(font (size 1.27 1.27))
-				(hide yes)
-			)
-		)
-		(symbol "JLC_PMOS_0_1"
-			(polyline
-				(pts
-					(xy -1.78 2.29)
-					(xy -1.78 -2.29)
-				)
-				(stroke (width 0) (type default))
-				(fill (type none))
-			)
-			(polyline
-				(pts
-					(xy -1.27 1.27)
-					(xy -1.27 2.29)
-				)
-				(stroke (width 0) (type default))
-				(fill (type none))
-			)
-			(polyline
-				(pts
-					(xy -1.27 0)
-					(xy 1.27 0)
-					(xy 1.27 -2.54)
-				)
-				(stroke (width 0) (type default))
-				(fill (type none))
-			)
-			(polyline
-				(pts
-					(xy -1.27 -0.51)
-					(xy -1.27 0.51)
-				)
-				(stroke (width 0) (type default))
-				(fill (type none))
-			)
-			(polyline
-				(pts
-					(xy -1.27 -2.29)
-					(xy -1.27 -1.27)
-				)
-				(stroke (width 0) (type default))
-				(fill (type none))
-			)
-			(polyline
-				(pts
-					(xy 1.27 1.78)
-					(xy -1.27 1.78)
-				)
-				(stroke (width 0) (type default))
-				(fill (type none))
-			)
-			(polyline
-				(pts
-					(xy 1.27 1.78)
-					(xy 1.27 2.54)
-					(xy 3.81 2.54)
-					(xy 3.81 0.76)
-				)
-				(stroke (width 0) (type default))
-				(fill (type none))
-			)
-			(polyline
-				(pts
-					(xy 1.27 0)
-					(xy -0.25 0.51)
-					(xy -0.25 -0.51)
-					(xy 1.27 0)
-				)
-				(stroke (width 0) (type default))
-				(fill (type background))
-			)
-			(polyline
-				(pts
-					(xy 1.27 -1.78)
-					(xy -1.27 -1.78)
-				)
-				(stroke (width 0) (type default))
-				(fill (type none))
-			)
-			(polyline
-				(pts
-					(xy 1.27 -2.54)
-					(xy 3.81 -2.54)
-					(xy 3.81 -0.51)
-				)
-				(stroke (width 0) (type default))
-				(fill (type none))
-			)
-			(polyline
-				(pts
-					(xy 3.81 -0.51)
-					(xy 4.57 0.76)
-					(xy 3.05 0.76)
-					(xy 3.81 -0.51)
-				)
-				(stroke (width 0) (type default))
-				(fill (type background))
-			)
-			(polyline
-				(pts
-					(xy 4.57 -0.51)
-					(xy 4.32 -0.51)
-					(xy 3.3 -0.51)
-					(xy 3.05 -0.51)
-				)
-				(stroke (width 0) (type default))
-				(fill (type none))
-			)
-			(pin unspecified line
-				(at -3.81 0 0)
-				(length 2.032)
-				(name "G"
-					(effects (font (size 1.27 1.27)))
-				)
-				(number "1"
-					(effects (font (size 1.27 1.27)))
-				)
-			)
-			(pin unspecified line
-				(at 1.27 5.08 270)
-				(length 2.54)
-				(name "D"
-					(effects (font (size 1.27 1.27)))
-				)
-				(number "3"
-					(effects (font (size 1.27 1.27)))
-				)
-			)
-			(pin unspecified line
-				(at 1.27 -5.08 90)
-				(length 2.54)
-				(name "S"
-					(effects (font (size 1.27 1.27)))
-				)
-				(number "2"
-					(effects (font (size 1.27 1.27)))
 				)
 			)
 		)
