@@ -34,7 +34,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -140,7 +140,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "1.15Ω-0805"
+	(symbol "10uH-10mA-1.15Ω-0805"
 		(pin_numbers
 			(hide yes)
 		)
@@ -172,7 +172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:L0805"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at -0.508 -4.826 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -227,7 +227,7 @@
 				)
 			)
 		)
-		(symbol "1.15Ω-0805_0_1"
+		(symbol "10uH-10mA-1.15Ω-0805_0_1"
 			(arc
 				(start -2.27 -0.02)
 				(mid -3.28 -0.937)
@@ -347,7 +347,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5170,7 +5170,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5249,7 +5249,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5328,7 +5328,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R1206"
+		(property "Footprint" "Resistor_SMD:C_1206_3216Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5407,7 +5407,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5486,7 +5486,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5565,7 +5565,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5644,7 +5644,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5701,8 +5701,8 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "1.85Ω-0603"
-		(extends "1.15Ω-0805")
+	(symbol "10uH-3mA-1.85Ω-0603"
+		(extends "10uH-10mA-1.15Ω-0805")
 		(property "Reference" "L"
 			(at 0 2.54 0)
 			(show_name no)
@@ -5723,7 +5723,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:L0603"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 0 -4.826 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5802,7 +5802,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5881,7 +5881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5960,7 +5960,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6039,7 +6039,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R1206"
+		(property "Footprint" "Resistor_SMD:C_1206_3216Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6118,7 +6118,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R1206"
+		(property "Footprint" "Resistor_SMD:C_1206_3216Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6197,7 +6197,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6276,7 +6276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6355,7 +6355,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6434,7 +6434,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6513,7 +6513,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6592,7 +6592,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6671,7 +6671,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6750,7 +6750,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6829,7 +6829,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6908,7 +6908,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6987,7 +6987,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R1206"
+		(property "Footprint" "Resistor_SMD:C_1206_3216Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7045,7 +7045,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "100Ω@100MHz-0805"
-		(extends "1.15Ω-0805")
+		(extends "10uH-10mA-1.15Ω-0805")
 		(property "Reference" "L"
 			(at 0 2.54 0)
 			(show_name no)
@@ -7066,7 +7066,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:L0805"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at -0.254 -5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7145,7 +7145,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7224,7 +7224,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7303,7 +7303,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7382,7 +7382,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7461,7 +7461,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R1206"
+		(property "Footprint" "Resistor_SMD:C_1206_3216Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7540,7 +7540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7619,7 +7619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7700,7 +7700,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7779,7 +7779,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7858,7 +7858,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7937,7 +7937,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8016,7 +8016,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8095,7 +8095,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8174,7 +8174,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8253,7 +8253,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8411,7 +8411,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8490,7 +8490,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8569,7 +8569,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805_NEW"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_NEW"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8648,7 +8648,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R1206"
+		(property "Footprint" "Resistor_SMD:C_1206_3216Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8727,7 +8727,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8806,7 +8806,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8885,7 +8885,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8964,7 +8964,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9043,7 +9043,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R1206"
+		(property "Footprint" "Resistor_SMD:C_1206_3216Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9122,7 +9122,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9201,7 +9201,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9280,7 +9280,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9359,7 +9359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9438,7 +9438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9517,7 +9517,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9596,7 +9596,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9675,7 +9675,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9754,7 +9754,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9833,7 +9833,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9912,7 +9912,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9991,7 +9991,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10070,7 +10070,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10149,7 +10149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10228,7 +10228,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10307,7 +10307,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10386,7 +10386,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10465,7 +10465,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10544,7 +10544,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10623,7 +10623,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10702,7 +10702,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10781,7 +10781,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10860,7 +10860,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R1206"
+		(property "Footprint" "Resistor_SMD:C_1206_3216Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11018,7 +11018,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11097,7 +11097,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11176,7 +11176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11255,7 +11255,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11334,7 +11334,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11413,7 +11413,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11492,7 +11492,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11571,7 +11571,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11650,7 +11650,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11729,7 +11729,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11808,7 +11808,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11887,7 +11887,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11966,7 +11966,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12045,7 +12045,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R1206"
+		(property "Footprint" "Resistor_SMD:C_1206_3216Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12124,7 +12124,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12203,7 +12203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12282,7 +12282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12361,7 +12361,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12440,7 +12440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12519,7 +12519,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12598,7 +12598,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 -12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12677,7 +12677,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12756,7 +12756,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12835,7 +12835,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12914,7 +12914,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12993,7 +12993,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13072,7 +13072,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13151,7 +13151,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13230,7 +13230,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13309,7 +13309,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13388,7 +13388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13467,7 +13467,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13546,7 +13546,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13625,7 +13625,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13704,7 +13704,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13783,7 +13783,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13862,7 +13862,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13941,7 +13941,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14020,7 +14020,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14099,7 +14099,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14178,7 +14178,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R1206"
+		(property "Footprint" "Resistor_SMD:C_1206_3216Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14257,7 +14257,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14336,7 +14336,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14415,7 +14415,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14494,7 +14494,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14573,7 +14573,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14652,7 +14652,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14731,7 +14731,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14810,7 +14810,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14889,7 +14889,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14968,7 +14968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15047,7 +15047,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15126,7 +15126,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15205,7 +15205,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15284,7 +15284,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15363,7 +15363,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15442,7 +15442,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15521,7 +15521,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15600,7 +15600,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15679,7 +15679,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15758,7 +15758,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15837,7 +15837,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15916,7 +15916,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15995,7 +15995,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16074,7 +16074,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16153,7 +16153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16232,7 +16232,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R1206"
+		(property "Footprint" "Resistor_SMD:C_1206_3216Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16311,7 +16311,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16390,7 +16390,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16469,7 +16469,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16548,7 +16548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16627,7 +16627,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16706,7 +16706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16785,7 +16785,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16864,7 +16864,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16943,7 +16943,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R1206"
+		(property "Footprint" "Resistor_SMD:C_1206_3216Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17022,7 +17022,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17101,7 +17101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17180,7 +17180,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17259,7 +17259,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17338,7 +17338,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17417,7 +17417,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17496,7 +17496,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17575,7 +17575,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17654,7 +17654,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17733,7 +17733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17812,7 +17812,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17891,7 +17891,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R1206"
+		(property "Footprint" "Resistor_SMD:C_1206_3216Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17970,7 +17970,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18049,7 +18049,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18128,7 +18128,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18207,7 +18207,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18286,7 +18286,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18365,7 +18365,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18444,7 +18444,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18523,7 +18523,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18602,7 +18602,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18681,7 +18681,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18760,7 +18760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18839,7 +18839,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18918,7 +18918,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18997,7 +18997,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19076,7 +19076,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19155,7 +19155,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19234,7 +19234,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19313,7 +19313,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19392,7 +19392,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19471,7 +19471,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19550,7 +19550,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19629,7 +19629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19708,7 +19708,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19787,7 +19787,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19866,7 +19866,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R1206"
+		(property "Footprint" "Resistor_SMD:C_1206_3216Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19945,7 +19945,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20024,7 +20024,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20103,7 +20103,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20182,7 +20182,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20261,7 +20261,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20340,7 +20340,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20419,7 +20419,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20498,7 +20498,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20577,7 +20577,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20656,7 +20656,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20735,7 +20735,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20814,7 +20814,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20893,7 +20893,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20972,7 +20972,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21051,7 +21051,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21130,7 +21130,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21209,7 +21209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21288,7 +21288,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21367,7 +21367,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21446,7 +21446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21525,7 +21525,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21604,7 +21604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21683,7 +21683,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21762,7 +21762,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21841,7 +21841,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21920,7 +21920,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21999,7 +21999,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22078,7 +22078,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22157,7 +22157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22236,7 +22236,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22315,7 +22315,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22394,7 +22394,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22473,7 +22473,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22552,7 +22552,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22631,7 +22631,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22868,7 +22868,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22947,7 +22947,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23026,7 +23026,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23105,7 +23105,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23184,7 +23184,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23263,7 +23263,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23342,7 +23342,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23421,7 +23421,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23500,7 +23500,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23579,7 +23579,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23658,7 +23658,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23737,7 +23737,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23816,7 +23816,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23895,7 +23895,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23974,7 +23974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24053,7 +24053,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24132,7 +24132,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24211,7 +24211,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24290,7 +24290,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24369,7 +24369,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24448,7 +24448,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24506,7 +24506,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "600Ω@100MHz-0603"
-		(extends "1.15Ω-0805")
+		(extends "10uH-10mA-1.15Ω-0805")
 		(property "Reference" "L"
 			(at 0 2.54 0)
 			(show_name no)
@@ -24527,7 +24527,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:L0603"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at -0.254 -5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24585,7 +24585,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "600Ω@100MHz-0805"
-		(extends "1.15Ω-0805")
+		(extends "10uH-10mA-1.15Ω-0805")
 		(property "Reference" "L"
 			(at 0 2.54 0)
 			(show_name no)
@@ -24606,7 +24606,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:L0805"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at -0.254 -4.826 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24685,7 +24685,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24764,7 +24764,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24843,7 +24843,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24922,7 +24922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25001,7 +25001,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25080,7 +25080,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25238,7 +25238,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25317,7 +25317,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25396,17 +25396,6 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:C0603"
-			(at 0 -7.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 0)
 			(show_name no)
@@ -25475,7 +25464,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25554,7 +25543,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25633,7 +25622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "jlcbasic:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
