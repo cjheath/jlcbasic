@@ -2,186 +2,6 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "0Ω-0402"
-		(extends "R")
-		(pin_numbers
-			(hide yes)
-		)
-		(pin_names
-			(hide yes)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "R"
-			(at 0 2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0Ω"
-			(at 0 -2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 0 -7.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_0R-0R0-1_C17168.html"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±800ppm/℃ ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C17168"
-			(at 0 -12.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PartNumber" "0402WGF0000TCE"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "100nF-0402"
-		(extends "C")
-		(pin_numbers
-			(hide yes)
-		)
-		(pin_names
-			(hide yes)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "C"
-			(at 0 2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 0 -2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 0 -7.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C1525"
-			(at 0 -12.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PartNumber" "CL05B104KO5NNNC"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
 	(symbol "100uF-Tantalum"
 		(pin_numbers
 			(hide yes)
@@ -202,6 +22,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100uF"
@@ -212,6 +33,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "jlcbasic:CASE-B_3528"
@@ -359,96 +181,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "10uH-10mA-1.15Ω-0805"
-		(extends "L")
-		(pin_numbers
-			(hide yes)
-		)
-		(pin_names
-			(hide yes)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "L"
-			(at 0 2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uH-15mA-1.15Ω"
-			(at 0 -2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
-			(at -0.508 -4.826 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Inductors-SMD_10uH-10_C1046.html"
-			(at -0.254 7.366 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "15mA 10uH ±10% 1.15Ω 0805 Inductors (SMD) ROHS"
-			(at -0.254 4.572 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C1046"
-			(at -0.254 -7.112 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PartNumber" "SDFL2012S100KTF"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
 	(symbol "1N4148WST4"
 		(pin_numbers
 			(hide yes)
@@ -472,7 +204,7 @@
 			)
 		)
 		(property "Value" "1N4148ST4"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1058,6 +790,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "jlcbasic:RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL"
@@ -3566,6 +3299,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "L"
@@ -5584,26 +5318,131 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "0Ω-0603"
+	(symbol "0Ω-0402"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 1.524 -1.778 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0Ω"
-			(at 0 -2.54 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_0R-0R0-1_C17168.html"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±800ppm/℃ ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C17168"
+			(at 0 -12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNumber" "0402WGF0000TCE"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "0Ω-0603"
+		(extends "R")
+		(property "Reference" "R"
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 1.524 -1.778 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -5688,23 +5527,25 @@
 	(symbol "0Ω-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "0Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -5789,23 +5630,25 @@
 	(symbol "0Ω-1206"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "0Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:C_1206_3216Metric"
@@ -5890,23 +5733,25 @@
 	(symbol "1.2kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1.2kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -5991,23 +5836,25 @@
 	(symbol "1.2kΩ-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1.2kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -6092,23 +5939,25 @@
 	(symbol "1.5kΩ-0402"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1.5kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -6193,23 +6042,25 @@
 	(symbol "1.5kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1.5kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -6294,23 +6145,25 @@
 	(symbol "100kΩ-0402"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -6395,23 +6248,25 @@
 	(symbol "100kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -6496,23 +6351,25 @@
 	(symbol "100kΩ-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -6597,23 +6454,25 @@
 	(symbol "100kΩ-1206"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:C_1206_3216Metric"
@@ -6698,23 +6557,25 @@
 	(symbol "100mΩ-1206"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100mΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:C_1206_3216Metric"
@@ -6784,6 +6645,109 @@
 			)
 		)
 		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "100nF-0402"
+		(extends "C")
+		(property "Reference" "C"
+			(at 1.524 1.778 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 1.524 -1.778 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 0 -12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNumber" "CL05B104KO5NNNC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6902,23 +6866,25 @@
 	(symbol "100nF-0805"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -7003,23 +6969,25 @@
 	(symbol "100nF-1206"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
@@ -7104,23 +7072,25 @@
 	(symbol "100pF-0402"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100pF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -7205,23 +7175,25 @@
 	(symbol "100pF-0603"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100pF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -7306,23 +7278,25 @@
 	(symbol "100pF-0805"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100pF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -7407,23 +7381,25 @@
 	(symbol "100uF-1206"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100uF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
@@ -7508,23 +7484,25 @@
 	(symbol "100Ω-0402"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -7609,23 +7587,25 @@
 	(symbol "100Ω-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -7710,23 +7690,25 @@
 	(symbol "100Ω-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -7811,23 +7793,25 @@
 	(symbol "100Ω-1206"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:C_1206_3216Metric"
@@ -7912,17 +7896,18 @@
 	(symbol "100Ω@100MHz-0805"
 		(extends "L")
 		(property "Reference" "L"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100Ω@100MHz"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7986,28 +7971,52 @@
 				)
 			)
 		)
-		(embedded_fonts no)
-	)
-	(symbol "10MΩ-0603"
-		(extends "R")
-		(property "Reference" "R"
-			(at 0 2.54 0)
+		(property "ki_keywords" "inductor choke coil reactor magnetic"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10MΩ"
-			(at 0 -2.54 0)
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "10MΩ-0603"
+		(extends "R")
+		(property "Reference" "R"
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+			)
+		)
+		(property "Value" "10MΩ"
+			(at 1.524 -1.778 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -8092,23 +8101,25 @@
 	(symbol "10kΩ-0402"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -8211,6 +8222,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -8295,23 +8307,25 @@
 	(symbol "10kΩ-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -8396,23 +8410,25 @@
 	(symbol "10kΩ-1206"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:C_1206_3216Metric"
@@ -8497,23 +8513,25 @@
 	(symbol "10nF-0402"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "10nF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -8598,23 +8616,25 @@
 	(symbol "10nF-0603"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "10nF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -8707,6 +8727,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(justify left)
 			)
 		)
 		(property "Value" "10nF"
@@ -8717,6 +8738,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(justify left)
 			)
 		)
@@ -8802,23 +8824,25 @@
 	(symbol "10nF-1206"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "10nF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
@@ -8903,23 +8927,25 @@
 	(symbol "10pF-0402"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "10pF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -9004,23 +9030,25 @@
 	(symbol "10pF-0603"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "10pF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -9105,23 +9133,25 @@
 	(symbol "10uF-0402"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -9206,23 +9236,25 @@
 	(symbol "10uF-0603"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -9314,6 +9346,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "10uF"
@@ -9324,6 +9357,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -9408,23 +9442,25 @@
 	(symbol "10uF-1206"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
@@ -9516,6 +9552,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "10uF"
@@ -9526,6 +9563,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "jlcbasic:CAP-SMD_L3.2-W1.6-RD-C7171"
@@ -9585,26 +9623,131 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "10uH-3mA-1.85Ω-0603"
+	(symbol "10uH-10mA-1.15Ω-0805"
 		(extends "L")
 		(property "Reference" "L"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uH-15mA-1.15Ω"
+			(at 1.524 -1.778 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at -0.508 -4.826 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10uH-3mA-1.85Ω"
-			(at 0 -2.54 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Inductors-SMD_10uH-10_C1046.html"
+			(at -0.254 7.366 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "15mA 10uH ±10% 1.15Ω 0805 Inductors (SMD) ROHS"
+			(at -0.254 4.572 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1046"
+			(at -0.254 -7.112 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNumber" "SDFL2012S100KTF"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "inductor choke coil reactor magnetic"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "10uH-3mA-1.85Ω-0603"
+		(extends "L")
+		(property "Reference" "L"
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uH-3mA-1.85Ω"
+			(at 1.524 -1.778 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
@@ -9662,28 +9805,52 @@
 				)
 			)
 		)
-		(embedded_fonts no)
-	)
-	(symbol "10Ω-0402"
-		(extends "R")
-		(property "Reference" "R"
-			(at 0 2.54 0)
+		(property "ki_keywords" "inductor choke coil reactor magnetic"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10Ω"
-			(at 0 -2.54 0)
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "10Ω-0402"
+		(extends "R")
+		(property "Reference" "R"
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+			)
+		)
+		(property "Value" "10Ω"
+			(at 1.524 -1.778 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -9768,23 +9935,25 @@
 	(symbol "10Ω-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "10Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -9869,23 +10038,25 @@
 	(symbol "10Ω-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "10Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_NEW"
@@ -9970,23 +10141,25 @@
 	(symbol "10Ω-1206"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "10Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:C_1206_3216Metric"
@@ -10071,23 +10244,25 @@
 	(symbol "120kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "120kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -10172,23 +10347,25 @@
 	(symbol "120Ω-0402"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "120Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -10273,23 +10450,25 @@
 	(symbol "120Ω-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "120Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -10374,23 +10553,25 @@
 	(symbol "120Ω-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "120Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -10475,23 +10656,25 @@
 	(symbol "120Ω-1206"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "120Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:C_1206_3216Metric"
@@ -10576,23 +10759,25 @@
 	(symbol "12kΩ-0402"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "12kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -10677,23 +10862,25 @@
 	(symbol "12kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "12kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -10778,23 +10965,25 @@
 	(symbol "12kΩ-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "12kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -10879,23 +11068,25 @@
 	(symbol "12pF-0402"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "12pF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -10980,23 +11171,25 @@
 	(symbol "12pF-0603"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "12pF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -11081,23 +11274,25 @@
 	(symbol "13kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "13kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -11182,23 +11377,25 @@
 	(symbol "150kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "150kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -11283,23 +11480,25 @@
 	(symbol "150kΩ-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "150kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -11384,23 +11583,25 @@
 	(symbol "150pF-0603"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "150pF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -11485,23 +11686,25 @@
 	(symbol "150Ω-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "150Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -11586,23 +11789,25 @@
 	(symbol "150Ω-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "150Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -11687,23 +11892,25 @@
 	(symbol "15kΩ-0402"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "15kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -11788,23 +11995,25 @@
 	(symbol "15kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "15kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -11889,23 +12098,25 @@
 	(symbol "15kΩ-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "15kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -11990,23 +12201,25 @@
 	(symbol "15pF-0402"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "15pF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -12091,23 +12304,25 @@
 	(symbol "15pF-0603"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "15pF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -12192,23 +12407,25 @@
 	(symbol "18kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "18kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -12293,23 +12510,25 @@
 	(symbol "18pF-0402"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "18pF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -12394,23 +12613,25 @@
 	(symbol "18pF-0603"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "18pF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -12495,23 +12716,25 @@
 	(symbol "1MΩ-0402"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1MΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -12596,23 +12819,25 @@
 	(symbol "1MΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1MΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -12697,23 +12922,25 @@
 	(symbol "1MΩ-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1MΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -12798,23 +13025,25 @@
 	(symbol "1MΩ-1206"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1MΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:C_1206_3216Metric"
@@ -12978,23 +13207,25 @@
 	(symbol "1kΩ-0402"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -13079,23 +13310,25 @@
 	(symbol "1kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -13180,23 +13413,25 @@
 	(symbol "1kΩ-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -13281,23 +13516,25 @@
 	(symbol "1nF-0402"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1nF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -13382,23 +13619,25 @@
 	(symbol "1nF-0603"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1nF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -13483,23 +13722,25 @@
 	(symbol "1nF-0805"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1nF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -13584,23 +13825,25 @@
 	(symbol "1nF-1206"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1nF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
@@ -13685,23 +13928,25 @@
 	(symbol "1uF-0402"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -13786,23 +14031,25 @@
 	(symbol "1uF-0603"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -13887,23 +14134,25 @@
 	(symbol "1uF-0805"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -13988,23 +14237,25 @@
 	(symbol "1uF-1206"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
@@ -14089,23 +14340,25 @@
 	(symbol "1Ω-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -14190,23 +14443,25 @@
 	(symbol "1Ω-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -14291,23 +14546,25 @@
 	(symbol "1Ω-1206"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:C_1206_3216Metric"
@@ -14392,23 +14649,25 @@
 	(symbol "2.2kΩ-0402"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "2.2kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -14493,23 +14752,25 @@
 	(symbol "2.2kΩ-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "2.2kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -14594,23 +14855,25 @@
 	(symbol "2.2nF-0603"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "2.2nF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -14695,23 +14958,25 @@
 	(symbol "2.2nF-0805"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "2.2nF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -14796,23 +15061,25 @@
 	(symbol "2.2uF-0402"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -14897,23 +15164,25 @@
 	(symbol "2.2uF-0603"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -14998,23 +15267,25 @@
 	(symbol "2.2uF-0805"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -15106,6 +15377,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "2.2uF"
@@ -15116,6 +15388,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
@@ -15200,23 +15473,25 @@
 	(symbol "2.2Ω-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "2.2Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -15301,23 +15576,25 @@
 	(symbol "2.2Ω-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "2.2Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -15402,23 +15679,25 @@
 	(symbol "2.4kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "2.4kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -15503,23 +15782,25 @@
 	(symbol "2.4kΩ-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "2.4kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -15604,23 +15885,25 @@
 	(symbol "2.7kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "2.7kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -15705,23 +15988,25 @@
 	(symbol "2.7kΩ-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "2.7kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -15806,23 +16091,25 @@
 	(symbol "200kΩ-0402"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "200kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -15907,23 +16194,25 @@
 	(symbol "200kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "200kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -16008,23 +16297,25 @@
 	(symbol "200kΩ-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "200kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -16109,23 +16400,25 @@
 	(symbol "200Ω-0402"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "200Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -16210,23 +16503,25 @@
 	(symbol "200Ω-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "200Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -16311,23 +16606,25 @@
 	(symbol "200Ω-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "200Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -16412,23 +16709,25 @@
 	(symbol "20kΩ-0402"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "20kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -16513,23 +16812,25 @@
 	(symbol "20pF-0402"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "20pF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -16614,23 +16915,25 @@
 	(symbol "20pF-0603"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "20pF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -16715,23 +17018,25 @@
 	(symbol "20pF-0805"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "20pF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -16816,23 +17121,25 @@
 	(symbol "20Ω-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "20Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -16917,23 +17224,25 @@
 	(symbol "20Ω-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "20Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -17018,23 +17327,25 @@
 	(symbol "20Ω-1206"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "20Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:C_1206_3216Metric"
@@ -17119,23 +17430,25 @@
 	(symbol "220kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "220kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -17220,23 +17533,25 @@
 	(symbol "220kΩ-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "220kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -17321,23 +17636,25 @@
 	(symbol "220nF-0402"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "220nF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -17422,23 +17739,25 @@
 	(symbol "220nF-0603"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "220nF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -17523,23 +17842,25 @@
 	(symbol "220pF-0402"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "220pF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -17624,23 +17945,25 @@
 	(symbol "220pF-0603"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "220pF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -17725,23 +18048,25 @@
 	(symbol "220pF-0805"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "220pF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -17826,23 +18151,25 @@
 	(symbol "220Ω-0402"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "220Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -17927,23 +18254,25 @@
 	(symbol "220Ω-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "220Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -18028,23 +18357,25 @@
 	(symbol "220Ω-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "220Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -18129,23 +18460,25 @@
 	(symbol "22kΩ-0402"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "22kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -18230,23 +18563,25 @@
 	(symbol "22kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "22kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -18331,23 +18666,25 @@
 	(symbol "22kΩ-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "22kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -18432,23 +18769,25 @@
 	(symbol "22nF-0402"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "22nF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -18533,23 +18872,25 @@
 	(symbol "22nF-0603"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "22nF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -18634,23 +18975,25 @@
 	(symbol "22nF-0805"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "22nF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -18735,23 +19078,25 @@
 	(symbol "22pF-0402"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "22pF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -18836,23 +19181,25 @@
 	(symbol "22pF-0603"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "22pF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -18937,23 +19284,25 @@
 	(symbol "22pF-0805"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "22pF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -19038,23 +19387,25 @@
 	(symbol "22uF-0603"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "22uF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -19139,23 +19490,25 @@
 	(symbol "22uF-0805"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "22uF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -19240,23 +19593,25 @@
 	(symbol "22uF-1206"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "22uF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
@@ -19341,23 +19696,25 @@
 	(symbol "22Ω-0402"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "22Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -19442,23 +19799,25 @@
 	(symbol "22Ω-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "22Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -19543,23 +19902,25 @@
 	(symbol "22Ω-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "22Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -19644,23 +20005,25 @@
 	(symbol "22Ω-1206"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "22Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:C_1206_3216Metric"
@@ -19745,23 +20108,25 @@
 	(symbol "24kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "24kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -19846,23 +20211,25 @@
 	(symbol "24kΩ-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "24kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -19947,23 +20314,25 @@
 	(symbol "270Ω-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "270Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -20048,23 +20417,25 @@
 	(symbol "27kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "27kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -20149,23 +20520,25 @@
 	(symbol "27kΩ-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "27kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -20250,23 +20623,25 @@
 	(symbol "2MΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "2MΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -20351,23 +20726,25 @@
 	(symbol "2kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "2kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -20452,23 +20829,25 @@
 	(symbol "2kΩ-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "2kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -20553,23 +20932,25 @@
 	(symbol "2kΩ-1206"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "2kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:C_1206_3216Metric"
@@ -20654,23 +21035,25 @@
 	(symbol "2Ω-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "2Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -20755,23 +21138,25 @@
 	(symbol "3.3kΩ-0402"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "3.3kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -20856,23 +21241,25 @@
 	(symbol "3.3kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "3.3kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -20957,23 +21344,25 @@
 	(symbol "3.3kΩ-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "3.3kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -21058,23 +21447,25 @@
 	(symbol "3.3nF-0603"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "3.3nF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -21159,23 +21550,25 @@
 	(symbol "3.6kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "3.6kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -21260,23 +21653,25 @@
 	(symbol "3.9kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "3.9kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -21361,23 +21756,25 @@
 	(symbol "3.9kΩ-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "3.9kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -21462,23 +21859,25 @@
 	(symbol "300kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "300kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -21563,23 +21962,25 @@
 	(symbol "300Ω-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "300Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -21664,23 +22065,25 @@
 	(symbol "300Ω-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "300Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -21765,23 +22168,25 @@
 	(symbol "300Ω-1206"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "300Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:C_1206_3216Metric"
@@ -21866,23 +22271,25 @@
 	(symbol "30kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "30kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -21967,23 +22374,25 @@
 	(symbol "30kΩ-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "30kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -22068,23 +22477,25 @@
 	(symbol "30pF-0603"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "30pF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -22169,23 +22580,25 @@
 	(symbol "330kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "330kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -22270,23 +22683,25 @@
 	(symbol "330pF-0603"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "330pF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -22371,23 +22786,25 @@
 	(symbol "330Ω-0402"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "330Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -22472,23 +22889,25 @@
 	(symbol "330Ω-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "330Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -22573,23 +22992,25 @@
 	(symbol "330Ω-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "330Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -22674,23 +23095,25 @@
 	(symbol "33kΩ-0402"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "33kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -22775,23 +23198,25 @@
 	(symbol "33kΩ-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "33kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -22876,23 +23301,25 @@
 	(symbol "33nF-0603"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "33nF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -22977,23 +23404,25 @@
 	(symbol "33nF-0805"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "33nF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -23078,23 +23507,25 @@
 	(symbol "33pF-0402"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "33pF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -23179,23 +23610,25 @@
 	(symbol "33pF-0603"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "33pF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -23280,23 +23713,25 @@
 	(symbol "33Ω-0402"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "33Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -23381,23 +23816,25 @@
 	(symbol "33Ω-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "33Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -23482,23 +23919,25 @@
 	(symbol "33Ω-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "33Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -23583,23 +24022,25 @@
 	(symbol "390Ω-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "390Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -23684,23 +24125,25 @@
 	(symbol "390Ω-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "390Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -23785,23 +24228,25 @@
 	(symbol "39kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "39kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -23886,23 +24331,25 @@
 	(symbol "3kΩ-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "3kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -23987,23 +24434,25 @@
 	(symbol "4.7kΩ-0402"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -24088,23 +24537,25 @@
 	(symbol "4.7kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -24189,23 +24640,25 @@
 	(symbol "4.7kΩ-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -24290,23 +24743,25 @@
 	(symbol "4.7kΩ-1206"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:C_1206_3216Metric"
@@ -24391,23 +24846,25 @@
 	(symbol "4.7nF-0402"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "4.7nF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -24492,23 +24949,25 @@
 	(symbol "4.7nF-0603"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "4.7nF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -24593,23 +25052,25 @@
 	(symbol "4.7nF-0805"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "4.7nF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -24694,23 +25155,25 @@
 	(symbol "4.7uF-0402"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -24795,23 +25258,25 @@
 	(symbol "4.7uF-0603"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -24896,23 +25361,25 @@
 	(symbol "4.7uF-0805"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -24997,23 +25464,25 @@
 	(symbol "4.7uF-1206"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
@@ -25098,23 +25567,25 @@
 	(symbol "4.7Ω-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "4.7Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -25199,23 +25670,25 @@
 	(symbol "4.7Ω-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "4.7Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -25300,23 +25773,25 @@
 	(symbol "4.99kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "4.99kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -25401,23 +25876,25 @@
 	(symbol "470kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "470kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -25502,23 +25979,25 @@
 	(symbol "470kΩ-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "470kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -25603,23 +26082,25 @@
 	(symbol "470nF-0603"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "470nF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -25704,23 +26185,25 @@
 	(symbol "470nF-0805"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "470nF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -25805,23 +26288,25 @@
 	(symbol "470pF-0603"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "470pF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -25906,23 +26391,25 @@
 	(symbol "470pF-0805"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "470pF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -26007,23 +26494,25 @@
 	(symbol "470Ω-0402"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "470Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -26108,23 +26597,25 @@
 	(symbol "470Ω-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "470Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -26209,23 +26700,25 @@
 	(symbol "470Ω-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "470Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -26310,23 +26803,25 @@
 	(symbol "47kΩ-0402"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "47kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -26411,23 +26906,25 @@
 	(symbol "47kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "47kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -26512,23 +27009,25 @@
 	(symbol "47kΩ-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "47kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -26613,23 +27112,25 @@
 	(symbol "47nF-0603"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "47nF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -26714,23 +27215,25 @@
 	(symbol "47nF-0805"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "47nF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -26815,23 +27318,25 @@
 	(symbol "47pF-0402"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "47pF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -26916,23 +27421,25 @@
 	(symbol "47pF-0603"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "47pF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -27017,23 +27524,25 @@
 	(symbol "47pF-0805"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "47pF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -27118,23 +27627,25 @@
 	(symbol "47uF-0805"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "47uF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -27219,23 +27730,25 @@
 	(symbol "47uF-1206"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "47uF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
@@ -27320,23 +27833,25 @@
 	(symbol "47Ω-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "47Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -27421,23 +27936,25 @@
 	(symbol "47Ω-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "47Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -27522,23 +28039,25 @@
 	(symbol "49.9kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "49.9kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -27623,23 +28142,25 @@
 	(symbol "49.9Ω-0402"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "49.9Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -27724,23 +28245,25 @@
 	(symbol "49.9Ω-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "49.9Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -27825,23 +28348,25 @@
 	(symbol "49.9Ω-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "49.9Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -27943,6 +28468,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "jlcbasic:RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL"
@@ -28022,6 +28548,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "jlcbasic:RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL"
@@ -28084,23 +28611,25 @@
 	(symbol "5.1kΩ-0402"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "5.1kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -28185,23 +28714,25 @@
 	(symbol "5.1kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "5.1kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -28286,23 +28817,25 @@
 	(symbol "5.1kΩ-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "5.1kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -28387,23 +28920,25 @@
 	(symbol "5.1Ω-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "5.1Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -28488,23 +29023,25 @@
 	(symbol "5.1Ω-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "5.1Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -28589,23 +29126,25 @@
 	(symbol "5.6kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "5.6kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -28690,23 +29229,25 @@
 	(symbol "510kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "510kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -28791,23 +29332,25 @@
 	(symbol "510Ω-0402"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "510Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -28892,23 +29435,25 @@
 	(symbol "510Ω-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "510Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -28993,23 +29538,25 @@
 	(symbol "510Ω-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "510Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -29094,23 +29641,25 @@
 	(symbol "51kΩ-0402"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "51kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -29195,23 +29744,25 @@
 	(symbol "51kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "51kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -29296,23 +29847,25 @@
 	(symbol "51kΩ-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "51kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -29397,23 +29950,25 @@
 	(symbol "51Ω-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "51Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -29498,23 +30053,25 @@
 	(symbol "51Ω-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "51Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -29599,23 +30156,25 @@
 	(symbol "560Ω-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "560Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -29700,23 +30259,25 @@
 	(symbol "560Ω-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "560Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -29801,23 +30362,25 @@
 	(symbol "56kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "56kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -29902,23 +30465,25 @@
 	(symbol "6.8kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "6.8kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -30003,23 +30568,25 @@
 	(symbol "6.8kΩ-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "6.8kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -30104,23 +30671,25 @@
 	(symbol "6.8nF-0603"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "6.8nF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -30205,17 +30774,18 @@
 	(symbol "600Ω@100MHz-0603"
 		(extends "L")
 		(property "Reference" "L"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "600Ω@100MHz"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30279,22 +30849,45 @@
 				)
 			)
 		)
-		(embedded_fonts no)
-	)
-	(symbol "600Ω@100MHz-0805"
-		(extends "L")
-		(property "Reference" "L"
-			(at 0 2.54 0)
+		(property "ki_keywords" "inductor choke coil reactor magnetic"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "600Ω@100MHz-0805"
+		(extends "L")
+		(property "Reference" "L"
+			(at 1.524 1.778 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Value" "600Ω@100MHz"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30358,28 +30951,52 @@
 				)
 			)
 		)
-		(embedded_fonts no)
-	)
-	(symbol "680Ω-0603"
-		(extends "R")
-		(property "Reference" "R"
-			(at 0 2.54 0)
+		(property "ki_keywords" "inductor choke coil reactor magnetic"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "680Ω"
-			(at 0 -2.54 0)
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "680Ω-0603"
+		(extends "R")
+		(property "Reference" "R"
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+			)
+		)
+		(property "Value" "680Ω"
+			(at 1.524 -1.778 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -30464,23 +31081,25 @@
 	(symbol "680Ω-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "680Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -30565,23 +31184,25 @@
 	(symbol "68kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "68kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -30666,23 +31287,25 @@
 	(symbol "68kΩ-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "68kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -30767,23 +31390,25 @@
 	(symbol "7.5kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "7.5kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -30868,23 +31493,25 @@
 	(symbol "75kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "75kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -31048,23 +31675,25 @@
 	(symbol "8.2kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "8.2kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -31149,23 +31778,25 @@
 	(symbol "8.2kΩ-0805"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "8.2kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -31250,23 +31881,25 @@
 	(symbol "8.2nF-0603"
 		(extends "C")
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "8.2nF"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -31351,23 +31984,25 @@
 	(symbol "820Ω-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "820Ω"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -31452,23 +32087,25 @@
 	(symbol "82kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "82kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -31553,23 +32190,25 @@
 	(symbol "9.1kΩ-0603"
 		(extends "R")
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "9.1kΩ"
-			(at 0 -2.54 0)
+			(at 1.524 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -33945,7 +34584,7 @@
 	(symbol "US1MG_C412437"
 		(extends "1N4148WST4")
 		(property "Reference" "D"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34498,7 +35137,7 @@
 	(symbol "whiteLEDSMD"
 		(extends "FC-2012HRK-620D")
 		(property "Reference" "LED"
-			(at 0 2.54 0)
+			(at 1.524 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
