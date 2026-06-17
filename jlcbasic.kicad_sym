@@ -3962,6 +3962,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "PSM712-LF-T7"
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8222,7 +8225,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -8727,7 +8729,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(justify left)
 			)
 		)
 		(property "Value" "10nF"
@@ -8738,7 +8739,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(justify left)
 			)
 		)
@@ -10059,7 +10059,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_NEW"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
